@@ -1,0 +1,14 @@
+[
+  {
+    "nummer": 1,
+    "beschreibung": "Der erste Stopp ist nicht sehr fern...",
+    "frage": "Wie viele Haustüren haben die Häuser zusammen?",
+    "antwort": "8"
+  },
+  {
+    "nummer": 2,
+    "beschreibung": "Das nächste Rätsel wartet...",
+    "frage": "Nenne die Farbe des Leuchtturms.",
+    "antwort": "rot"
+  }
+]

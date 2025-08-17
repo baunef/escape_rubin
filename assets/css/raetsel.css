@@ -8,6 +8,18 @@
 .feedback.wrong { color: #e74c3c; }
 .feedback.correct { color: #2ecc71; }
 
+input[type="text"].correct {
+			border-color: lightgreen;
+			box-shadow: 0 0 0 1px #2ecc7133;
+      transition: box 0.3s, border 0.3s;
+		}
+
+input[type="text"].wrong {
+			border-color: #e74c3c;
+			box-shadow: 0 0 0 1px #e74c3c33;
+      transition: box 0.3s, border 0.3s;
+		}
+
 /* Wackel-Effekt */
 @keyframes shake {
   0% { transform: translateX(0); }
