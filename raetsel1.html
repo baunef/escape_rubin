@@ -13,33 +13,13 @@
     <p class="feedback" id="feedback"></p>
   </div>
 
+<!-- Scripts -->
+  <script src="assets/js/functions.js"></script>
   <script>
     const correctAnswer = "1234";
     const input = document.getElementById("answer");
     const feedback = document.getElementById("feedback");
     const button = document.getElementById("submit");
-
-    function checkAnswer() {
-      const userAnswer = input.value.trim();
-      if (userAnswer === correctAnswer) {
-        feedback.textContent = "Richtig! Weiter zum nächsten Rätsel...";
-        feedback.className = "feedback correct";
-        setTimeout(() => {
-          window.location.href = "raetsel2.html"; // nächste Seite
-        }, 500);
-      } else {
-        feedback.textContent = "Falsch, versuch's nochmal.";
-        feedback.className = "feedback wrong";
-
-        // Wackeleffekt hinzufügen
-        input.classList.add("shake");
-
-        // Nach Ende der Animation wieder entfernen, damit es beim nächsten Fehler erneut triggert
-        input.addEventListener("animationend", () => {
-            input.classList.remove("shake");
-        }, { once: true });
-      }
-    }
 
     button.addEventListener("click", checkAnswer);
     input.addEventListener("keypress", function(e) {
