@@ -2,19 +2,66 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Escape Game - Start</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escape Game</title>
   <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/raetsel.css">
 </head>
 <body>
-    <section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+
+  <!-- Landing Page -->
+    <section id="landing" class="banner style3 orient-center content-align-center image-position-center fullscreen onload-image-fade-in onload-content-fade-right">
         <div class="content">
-            <h1>Willkommen auf Sylt!</h1>
-            <a href="raetsel1.html" class="button large wide smooth-scroll-middle">Reise beginnen...</a>
+            <ul class="actions stacked">
+                <li>
+                    <h1>Willkommen auf Sylt!</h1>
+                    <p>Wir wünschen viel Erfolg.</p>
+                    <button id="start-button">Reise beginnen...</button>
+                </li>
+            </ul>
         </div>
         <div class="image">
-            <img src="images/banner.jpg" alt="">
+            <img src="images/schulz_strand.jpg" alt="">
         </div>
+    </section>
 
+  <!-- Rätsel-Container -->
+  <section id="raetsel-container" class="hidden">
+    <div class="raetsel">
+        <ul class="actions stacked">
+            <li>
+                <h2 id="raetsel-titel"></h2>
+                <p class="beschreibung"></p>
+                <p class="frage"></p>
+            </li>
+            <li>
+                <input type="text" id="answer" placeholder="Antwort eingeben">
+            </li>
+            <li>
+                <button id="submit">Bestätigen</button>
+            </li>
+            <li>
+                <p class="feedback" id="feedback"></p>
+            </li>
+        </ul>
+
+    </div>
+  </section>
+
+  <!-- End Page -->
+    <section id="endpage" class="hidden">
+        <div class="content">
+            <ul class="actions stacked">
+                <li>
+                    <h1>Glückwunsch!</h1>
+                    <p>Ihr habt alle Rätsel gelöst und euer Ziel befindet sich vor euren Augen.</p>
+                    <button id="start-button">Reise erneut beginnen...</button>
+                </li>
+            </ul>
+        </div>
+        <div class="image content-align-center">
+            <img src="https://sylt-goldschmiede.de/wp-content/uploads/2022/02/Goldschmiede-Raspe-71.jpg" alt="">
+        </div>
     </section>
 
     <!-- Scripts -->
@@ -25,6 +72,7 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/quiz_generator.js"></script>
 
 </body>
 </html>
