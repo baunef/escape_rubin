@@ -4,6 +4,7 @@ let currentIndex = 0;
 const landing = document.getElementById("landing");
 const startButton = document.getElementById("start-button");
 const raetselContainer = document.getElementById("raetsel-container");
+const endpage = document.getElementById("endpage");
 
 const titelElem = document.getElementById("raetsel-titel");
 const beschreibungElem = document.querySelector(".beschreibung");

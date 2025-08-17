@@ -1,4 +1,9 @@
-/* Feedback Styles */
+#raetsel-container {
+  padding: 2rem;
+}
+
+.hidden { display: none; }
+
 .feedback {
   margin-top: 1rem;
   font-weight: bold;
