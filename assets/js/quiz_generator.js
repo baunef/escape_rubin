@@ -3,6 +3,7 @@ let currentIndex = 0;
 
 const landing = document.getElementById("landing");
 const startButton = document.getElementById("start-button");
+const restartButton = document.getElementById("restart-button");
 const raetselContainer = document.getElementById("raetsel-container");
 const endpage = document.getElementById("endpage");
 
@@ -16,9 +17,11 @@ const submit = document.getElementById("submit");
 // Landing -> Rätsel starten
 startButton.addEventListener("click", () => {
   landing.className = "hidden";
-  raetselContainer.classList.remove("hidden");
+  raetselContainer.className = "banner style3 orient-center content-align-center image-position-center fullscreen onload-image-fade-in onload-content-fade-right";
   loadRätsel(currentIndex);
 });
+
+
 
 // JSON laden
 fetch("raetsel.json")
@@ -34,14 +37,15 @@ fetch("raetsel.json")
 function loadRätsel(index) {
   const raetsel = raetselData[index];
   if (!raetsel) {
-    // titelElem.textContent = "Glückwunsch!";
-    // beschreibungElem.textContent = "Ihr habt alle Rätsel gelöst.";
-    // frageElem.textContent = "";
-    // input.style.display = "none";
-    // submit.style.display = "none";
-    // feedback.textContent = "";
     raetselContainer.className = "hidden";
     endpage.className = "banner style3 orient-center content-align-center image-position-center fullscreen onload-image-fade-in onload-content-fade-right";
+    // Endpage -> Landing
+    restartButton.addEventListener("click", () => {
+        endpage.className = "hidden"
+        raetselContainer.classList.remove("hidden");
+        let currentIndex = 0;
+        loadRätsel(currentIndex);
+    });
     return;
   }
   titelElem.textContent = `Rätsel Nummer ${raetsel.nummer}`; // dynamisch

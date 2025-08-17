@@ -1,14 +1,57 @@
 [
   {
     "nummer": 1,
-    "beschreibung": "Der erste Stopp ist nicht sehr fern...",
+    "beschreibung": "Der erste Stopp ist nicht sehr fern, hier hausten wir viele Jahre gern.",
     "frage": "Wie viele Haustüren haben die Häuser zusammen?",
     "antwort": "8"
   },
   {
     "nummer": 2,
-    "beschreibung": "Das nächste Rätsel wartet...",
-    "frage": "Nenne die Farbe des Leuchtturms.",
-    "antwort": "rot"
+    "beschreibung": "Als nächstes geht’s zu einem Gewässer, ein gutes Restaurant nebenan hat Essen, das ist noch besser.",
+    "frage": "Die Buslinie 3a hält an der Haltestelle „Hauptstrasse Friesenhof“ um 7:XX Uhr. Welche Zahl ergibt sich?",
+    "antwort": "52"
+  },
+  {
+    "nummer": 3,
+    "beschreibung": "Stopp 3 kann leuchten und steht im Feld, er heisst so wie ein ehemaliger Finanzminister (der war kein Held).",
+    "frage": "Am Bauwerk steht die Zahl 18XX. Welche Zahl ergibt sich, wenn ihr zu XX die Anzahl Sekunden addiert, die das Bauwerk zur Kennung pro Umdrehung hell leuchtet?",
+    "antwort": "58"
+  },
+  {
+    "nummer": 4,
+    "beschreibung": "Der höchste Punkt der Insel ist Stopp Nummer 4, die nächste Aufgaben wartet auf euch hier.",
+    "frage": "Wie viele Stufen muss man hier hinauf gehen? Teile diese Zahl durch 2 und subtrahiere 1.",
+    "antwort": "54"
+  },
+  {
+    "nummer": 5,
+    "beschreibung": "Habt ihr Lust auf Kaffee und Kuchen, in Kampen muss man an diesem Ort nicht lange danach suchen (nur vielleicht anstehen, um einen Platz zu bekommen).",
+    "frage": "Sucht das Logo des Cafés. Dort findet ihr eine Zahlenabfolge. Berechnet die Summe aller Ziffern und addiert die Anzahl Personen, die ihr zu diesem Urlaub eingeladen habt.",
+    "antwort": "24"
+  },
+  {
+    "nummer": 6,
+    "beschreibung": "Bei Munkmarsch steht dieses edle Gästehaus.",
+    "frage": "Das Fährhaus wurde im Jahr X8Y8 erbaut. Findet XY!",
+    "antwort": "16"
+  },
+  {
+    "nummer": 7,
+    "beschreibung": "Lügenbrücke",
+    "frage": "„Lügen haben kurze Beine.“ Welcher Buchstabe kommt in diesem Sprichwort am häufigsten vor?",
+    "antwort": "N"
+  },
+  {
+    "nummer": 8,
+    "beschreibung": "In dieser Kirche wart ihr schon oft für Konzerte, dorthin führt euch nun die Pfärte.",
+    "frage": "Finde das Grab eines ehemaligen Bundesministers, der auch Namensvetter eines Altkanzlers ist. Welcher Buchstabe steckt hier im O?",
+    "antwort": "E"
+  },
+  {
+    "nummer": 9,
+    "beschreibung": "Habt ihr bei den Rätsels nicht nur geraten, so habt ihr für das Ziel nun die Koordinaten.",
+    "frage": "Endstation",
+    "antwort": ""
   }
 ]
+
