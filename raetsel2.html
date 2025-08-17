@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 <body>
-  <div class="container">
+  <div class="container" data-answer="1234" data-next="raetsel1.html">
     <h2>Zweites Rätsel</h2>
     <input type="text" id="answer" placeholder="Antwort eingeben">
     <button id="submit">Prüfen</button>
@@ -15,19 +15,7 @@
 
 <!-- Scripts -->
   <script src="assets/js/functions.js"></script>
-  <script>
-    const correctAnswer = "1234";
-    const input = document.getElementById("answer");
-    const feedback = document.getElementById("feedback");
-    const button = document.getElementById("submit");
 
-    button.addEventListener("click", checkAnswer);
-    input.addEventListener("keypress", function(e) {
-      if (e.key === "Enter") {
-        checkAnswer();
-      }
-    });
-  </script>
 
 </body>
 </html>
