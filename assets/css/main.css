@@ -1,0 +1,62 @@
+body {
+    background-color: #111;
+    color: #eee;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    text-align: center;
+    background: #222;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+input {
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: none;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+button {
+    margin-left: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+.feedback {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+.wrong {
+    color: #e74c3c;
+}
+.correct {
+    color: #2ecc71;
+}
+
+/* Keyframes für das Wackeln */
+@keyframes shake {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(-5px); }
+    40% { transform: translateX(5px); }
+    60% { transform: translateX(-5px); }
+    80% { transform: translateX(5px); }
+    100% { transform: translateX(0); }
+}
+
+/* Klasse für Wackeleffekt */
+.shake {
+    animation: shake 0.4s;
+}
