@@ -71,6 +71,12 @@ function loadRätsel(index) {
     imageContainer.innerHTML = "";
   }
 
+  input.value = "";
+  // Antwort als Array speichern
+  input.dataset.answer = JSON.stringify(
+    Array.isArray(raetsel.antwort) ? raetsel.antwort : [raetsel.antwort]
+  );
+
   // vorherige Klassen entfernen
   input.classList.remove("correct", "wrong", "shake");
 
@@ -79,12 +85,12 @@ function loadRätsel(index) {
 // Antwort prüfen
 function checkAnswer() {
   const userAnswer = input.value.trim();
-  const correctAnswer = input.dataset.answer;
+  const correctAnswer = JSON.parse(input.dataset.answer);
 
   // vorherige Klassen entfernen
   input.classList.remove("correct", "wrong", "shake");
 
-  if (userAnswer === correctAnswer) {
+  if (correctAnswer.includes(userAnswer)) {
     feedback.textContent = "Richtig! Weiter zum nächsten Rätsel...";
     feedback.className = "feedback correct";
     input.classList.add("correct");

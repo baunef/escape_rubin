@@ -3,8 +3,8 @@
     "nummer": 1,
     "titel": "Trautes Heim",
     "beschreibung": "Der erste Stopp ist nicht sehr fern, hier hausten wir viele Jahre gern.",
-    "frage": "",
-    "antwort": "8",
+    "frage": "Unter welcher Adresse ist dieser Ort zu finden?",
+    "antwort": ["Berthin-Bleeg-Straße 333", "BBB333", "333"],
     "solution": "_°_'_\"_ _°_'_\"_",
     "image": "images/quiz/sturmfried.jpg"
   },
@@ -21,6 +21,14 @@
     "nummer": 2,
     "beschreibung": "Als nächstes geht's zu einem Gewässer, ein gutes Restaurant nebenan hat Essen, das ist noch besser.",
     "frage": "Die Buslinie 3a hält an der Haltestelle „Hauptstrasse Friesenhof“ um 7:XX Uhr. Welche Zahl ergibt sich?",
+    "antwort": ["Fitschen", "Fitschen am Dorfteich", "Restaurant Fitschen"],
+    "solution": "_°_'_\"_ 8°_'_\"_",
+    "image": "images/quiz/leckerei.jpg"
+  },
+  {
+    "nummer": 2,
+    "beschreibung": "Begebt euch vom Restaurant Fitschen zur nächtgelegenen Bushaltestelle an der „Hauptstrasse Friesenhof“.",
+    "frage": "Die Buslinie 3a hält hier um 7:XX Uhr. Welche Zahl ergibt sich?",
     "antwort": "52",
     "solution": "_°_'_\"_ 8°_'_\"_"
   },
