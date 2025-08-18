@@ -1,57 +1,77 @@
 [
   {
     "nummer": 1,
+    "titel": "Trautes Heim",
     "beschreibung": "Der erste Stopp ist nicht sehr fern, hier hausten wir viele Jahre gern.",
+    "frage": "",
+    "antwort": "8",
+    "solution": "_°_'_\"_ _°_'_\"_",
+    "image": "images/quiz/sturmfried.jpg"
+  },
+  {
+    "nummer": 1,
+    "titel": "Sturmfried",
+    "beschreibung": "Ihr steht jetzt hoffentlich vorm Hause Sturmfried, wo diese Leckerei entstand.",
     "frage": "Wie viele Haustüren haben die Häuser zusammen?",
-    "antwort": "8"
+    "antwort": "8",
+    "solution": "_°_'_\"_ _°_'_\"_",
+    "image": "images/quiz/leckerei.jpg"
   },
   {
     "nummer": 2,
-    "beschreibung": "Als nächstes geht’s zu einem Gewässer, ein gutes Restaurant nebenan hat Essen, das ist noch besser.",
+    "beschreibung": "Als nächstes geht's zu einem Gewässer, ein gutes Restaurant nebenan hat Essen, das ist noch besser.",
     "frage": "Die Buslinie 3a hält an der Haltestelle „Hauptstrasse Friesenhof“ um 7:XX Uhr. Welche Zahl ergibt sich?",
-    "antwort": "52"
+    "antwort": "52",
+    "solution": "_°_'_\"_ 8°_'_\"_"
   },
   {
     "nummer": 3,
     "beschreibung": "Stopp 3 kann leuchten und steht im Feld, er heisst so wie ein ehemaliger Finanzminister (der war kein Held).",
     "frage": "Am Bauwerk steht die Zahl 18XX. Welche Zahl ergibt sich, wenn ihr zu XX die Anzahl Sekunden addiert, die das Bauwerk zur Kennung pro Umdrehung hell leuchtet?",
-    "antwort": "58"
+    "antwort": "58",
+    "solution": "_°52'_\"_ 8°_'_\"_"
   },
   {
     "nummer": 4,
     "beschreibung": "Der höchste Punkt der Insel ist Stopp Nummer 4, die nächste Aufgaben wartet auf euch hier.",
     "frage": "Wie viele Stufen muss man hier hinauf gehen? Teile diese Zahl durch 2 und subtrahiere 1.",
-    "antwort": "54"
+    "antwort": "54",
+    "solution": "_°52'_\"_ 8°_'58\"_"
   },
   {
     "nummer": 5,
     "beschreibung": "Habt ihr Lust auf Kaffee und Kuchen, in Kampen muss man an diesem Ort nicht lange danach suchen (nur vielleicht anstehen, um einen Platz zu bekommen).",
     "frage": "Sucht das Logo des Cafés. Dort findet ihr eine Zahlenabfolge. Berechnet die Summe aller Ziffern und addiert die Anzahl Personen, die ihr zu diesem Urlaub eingeladen habt.",
-    "antwort": "24"
+    "antwort": "24",
+    "solution": "54°52'_\"_ 8°_'58\"_"
   },
   {
     "nummer": 6,
     "beschreibung": "Bei Munkmarsch steht dieses edle Gästehaus.",
     "frage": "Das Fährhaus wurde im Jahr X8Y8 erbaut. Findet XY!",
-    "antwort": "16"
+    "antwort": "16",
+    "solution": "54°52'_\"_ 8°24'58\"_"
   },
   {
     "nummer": 7,
     "beschreibung": "Lügenbrücke",
     "frage": "„Lügen haben kurze Beine.“ Welcher Buchstabe kommt in diesem Sprichwort am häufigsten vor?",
-    "antwort": "N"
+    "antwort": "N",
+    "solution": "54°52'16\"_ 8°24'58\"_"
   },
   {
     "nummer": 8,
     "beschreibung": "In dieser Kirche wart ihr schon oft für Konzerte, dorthin führt euch nun die Pfärte.",
     "frage": "Finde das Grab eines ehemaligen Bundesministers, der auch Namensvetter eines Altkanzlers ist. Welcher Buchstabe steckt hier im O?",
-    "antwort": "E"
+    "antwort": "E",
+    "solution": "54°52'16\"N 8°24'58\"_"
   },
   {
     "nummer": 9,
     "beschreibung": "Habt ihr bei den Rätsels nicht nur geraten, so habt ihr für das Ziel nun die Koordinaten.",
     "frage": "Endstation",
-    "antwort": ""
+    "antwort": "",
+    "solution": "54°52'16\"N 8°24'58\"E"
   }
 ]
 

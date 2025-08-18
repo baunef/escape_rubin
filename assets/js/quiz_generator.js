@@ -1,5 +1,6 @@
 let raetselData = [];
 let currentIndex = 0;
+let solutionWord = "";
 
 const landing = document.getElementById("landing");
 const startButton = document.getElementById("start-button");
@@ -7,12 +8,17 @@ const restartButton = document.getElementById("restart-button");
 const raetselContainer = document.getElementById("raetsel-container");
 const endpage = document.getElementById("endpage");
 
-const titelElem = document.getElementById("raetsel-titel");
+const titelElem = document.querySelector(".titel");
+const imageContainer = document.getElementById("image-container");
+
 const beschreibungElem = document.querySelector(".beschreibung");
 const frageElem = document.querySelector(".frage");
 const input = document.getElementById("answer");
 const feedback = document.getElementById("feedback");
 const submit = document.getElementById("submit");
+
+const solutionBar = document.getElementById("solution-word");
+
 
 // Landing -> Rätsel starten
 startButton.addEventListener("click", () => {
@@ -33,6 +39,8 @@ fetch("raetsel.json")
     alert("Fehler beim Laden der Rätseldaten: " + err);
   });
 
+
+
 // Rätsel laden
 function loadRätsel(index) {
   const raetsel = raetselData[index];
@@ -48,12 +56,20 @@ function loadRätsel(index) {
     });
     return;
   }
-  titelElem.textContent = `Rätsel Nummer ${raetsel.nummer}`; // dynamisch
+  titelElem.textContent = raetsel.titel || `Rätsel Nummer ${raetsel.nummer}`;
   beschreibungElem.textContent = raetsel.beschreibung;
   frageElem.textContent = raetsel.frage;
   input.value = "";
   input.dataset.answer = raetsel.antwort;
   feedback.textContent = "";
+  solutionBar.textContent = raetsel.solution;
+
+  // Bild einfügen oder leeren
+  if (raetsel.image) {
+    imageContainer.innerHTML = `<img src="${raetsel.image}">`;
+  } else {
+    imageContainer.innerHTML = "";
+  }
 
   // vorherige Klassen entfernen
   input.classList.remove("correct", "wrong", "shake");

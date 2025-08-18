@@ -35,3 +35,24 @@ input[type="text"].wrong {
 .shake {
   animation: shake 0.4s;
 }
+
+/* Kopfzeile */
+#solution-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #222;
+  color: #eee;
+  padding: 0.8rem;
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  z-index: 1000;
+}
+
+/* Abstand nach unten, damit nichts überlappt */
+body {
+  padding-top: 60px;
+}
