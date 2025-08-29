@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Kompass</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    #arrow {
+      margin-top: 40px;
+      font-size: 80px;
+      transition: transform 0.3s linear;
+      display: inline-block;
+    }
+    .coords {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Kompass</h1>
+
+  <div id="ziel"></div>
+  <div class="coords">
+    <p><strong>Aktuelle Koordinaten:</strong></p>
+    <p id="aktuell">Noch keine Daten…</p>
+  </div>
+
+  <div>
+    <div id="arrow">🧭</div>
+    <p id="richtung">Ausrichtung: -</p>
+  </div>
+
+  <script src="assets/js/kompass.js"></script>
+</body>
+</html>
