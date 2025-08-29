@@ -1,6 +1,6 @@
 // Hardcodierte Zielkoordinaten
-const zielLat = 54.91234;
-const zielLon = 8.31234;
+const zielLat = 48,20835;
+const zielLon = 16,37396;
 
 // Ziel in HTML anzeigen
 document.getElementById("ziel").innerHTML =
