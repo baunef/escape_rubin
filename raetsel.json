@@ -20,63 +20,111 @@
   {
     "nummer": 2,
     "beschreibung": "Als nächstes geht's zu einem Gewässer, ein gutes Restaurant nebenan hat Essen, das ist noch besser.",
-    "frage": "Die Buslinie 3a hält an der Haltestelle „Hauptstrasse Friesenhof“ um 7:XX Uhr. Welche Zahl ergibt sich?",
-    "antwort": ["Fitschen", "Fitschen am Dorfteich", "Restaurant Fitschen"],
+    "frage": "Welchen prominenten Fernsehmoderator haben wir hier mit Dreitagebart gesehen?",
+    "antwort": ["Günther Jauch", "Jauch", "Günther", "Günter Jauch", "Günter"],
     "solution": "_°_'_\"_ 8°_'_\"_",
     "image": "images/quiz/leckerei.jpg"
   },
   {
     "nummer": 2,
+    "titel": "Am Friesenhof",
     "beschreibung": "Begebt euch vom Restaurant Fitschen zur nächtgelegenen Bushaltestelle an der „Hauptstrasse Friesenhof“.",
-    "frage": "Die Buslinie 3a hält hier um 7:XX Uhr. Welche Zahl ergibt sich?",
-    "antwort": "52",
-    "solution": "_°_'_\"_ 8°_'_\"_"
+    "frage": "Die Buslinie 3a hält hier um wie viele Minuten nach 7 Uhr?",
+    "antwort": ["52"],
+    "solution": "_°_'_\"_ 8°_'_\"_",
+    "image": "https://img.ecmaps.de/remote/.jpg?url=https%3A%2F%2Fdam.destination.one%2F198404%2Fb6fe2958890a75b373137bcbc74a610dc48bfda02272062c5d3678fd02423c31%2Fhaltestelle-hauptstra-e.jpg"
   },
   {
     "nummer": 3,
-    "beschreibung": "Stopp 3 kann leuchten und steht im Feld, er heisst so wie ein ehemaliger Finanzminister (der war kein Held).",
+    "beschreibung": "Stopp 3 ist lang und steht im Feld, er heisst wie'n Ex-Finanzminister (der war kein Held).",
+    "frage": "Wie heißt die helle Leuchte?",
+    "antwort": ["Langer Christian", "Lange Christian", "langer christian", "langer Christian"],
+    "solution": "_°52'_\"_ 8°_'_\"_",
+    "image": "https://image.stern.de/32529308/t/3P/v5/w1440/r1.3333/-/sylt-lindner-hochzeit.jpg"
+  },
+  {
+    "nummer": 3,
+    "beschreibung": "Vorm Turme stehend nach oben seht, dann rechnet bis euch ein Licht aufgeht!",
     "frage": "Am Bauwerk steht die Zahl 18XX. Welche Zahl ergibt sich, wenn ihr zu XX die Anzahl Sekunden addiert, die das Bauwerk zur Kennung pro Umdrehung hell leuchtet?",
-    "antwort": "58",
-    "solution": "_°52'_\"_ 8°_'_\"_"
+    "antwort": ["58"],
+    "solution": "_°52'_\"_ 8°_'_\"_",
+    "image": "https://syltexklusiv.com/wp-content/uploads/2024/04/april-6742.jpg"
   },
   {
     "nummer": 4,
     "beschreibung": "Der höchste Punkt der Insel ist Stopp Nummer 4, die nächste Aufgaben wartet auf euch hier.",
-    "frage": "Wie viele Stufen muss man hier hinauf gehen? Teile diese Zahl durch 2 und subtrahiere 1.",
-    "antwort": "54",
+    "frage": "Wie heißt euer nächster Stopp?",
+    "antwort": ["Uwe", "Uwe-Düne", "Uwe Düne", "Uwedüne"],
     "solution": "_°52'_\"_ 8°_'58\"_"
   },
   {
+    "nummer": 4,
+    "beschreibung": "Den Tag nicht vor dem Abend loben, jetzt müsst ihr auch noch ganz nach oben!",
+    "frage": "Wie viele Stufen muss man hier hinauf gehen? Teile diese Zahl durch 2 und subtrahiere 1.",
+    "antwort": "54",
+    "solution": "_°52'_\"_ 8°_'58\"_"
+  },  
+  {
     "nummer": 5,
     "beschreibung": "Habt ihr Lust auf Kaffee und Kuchen, in Kampen muss man an diesem Ort nicht lange danach suchen (nur vielleicht anstehen, um einen Platz zu bekommen).",
+    "frage": "Wie heißt euer nächster Stopp?",
+    "antwort": ["Kupferkanne", "Die Kupferkanne", "kupferkanne", "Kupfer Kanne"],
+    "solution": "54°52'_\"_ 8°_'58\"_",
+    "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sf4c520381612fc19/image/ie08d345ef0de98e8/version/1550676366/image.jpg"
+  },
+  {
+    "nummer": 5,
+    "beschreibung": "Kuchen gibt's noch nicht als Lohn, das nächste Rätsel wartet schon!",
     "frage": "Sucht das Logo des Cafés. Dort findet ihr eine Zahlenabfolge. Berechnet die Summe aller Ziffern und addiert die Anzahl Personen, die ihr zu diesem Urlaub eingeladen habt.",
-    "antwort": "24",
-    "solution": "54°52'_\"_ 8°_'58\"_"
+    "antwort": ["24"],
+    "solution": "54°52'_\"_ 8°_'58\"_",
+    "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sf4c520381612fc19/image/ie08d345ef0de98e8/version/1550676366/image.jpg"
   },
   {
     "nummer": 6,
-    "beschreibung": "Bei Munkmarsch steht dieses edle Gästehaus.",
+    "beschreibung": "Ihr fahrt in Richtung Munkmarsch weiter, dort steht ein edles Gästehaus.",
+    "frage": "Wie heißt das gesuchte Gästehaus?",
+    "antwort": ["Fährhaus", "fährhaus", "fahrhaus", "Fahrhaus", "Das Fährhaus", "färhaus", "Färhaus"],
+    "solution": "54°52'_\"_ 8°24'58\"_"
+  },
+  {
+    "nummer": 6,
+    "beschreibung": "Am besten kehr auch hier nicht ein, denn hier fehlt uns ein guter Reim.",
     "frage": "Das Fährhaus wurde im Jahr X8Y8 erbaut. Findet XY!",
-    "antwort": "16",
+    "antwort": ["16"],
     "solution": "54°52'_\"_ 8°24'58\"_"
   },
   {
     "nummer": 7,
-    "beschreibung": "Lügenbrücke",
+    "beschreibung": "Auf Schwindel fällt sie nicht herein und stürzt mitsamt dem Lügner ein.",
+    "frage": "Welches schwindelfreie Monument ist euer nächstes Ziel?",
+    "antwort": ["Lügenbrücke", "Lügen Brücke", "Lügnerbrücke", "Die Lügenbrücke", "lügenbrücke"],
+    "solution": "54°52'16\"_ 8°24'58\"_"
+  },
+  {
+    "nummer": 7,
+    "beschreibung": "In der Ehe soll man nur Wahres sagen, weshalb wir über die Brücke jagen.",
     "frage": "„Lügen haben kurze Beine.“ Welcher Buchstabe kommt in diesem Sprichwort am häufigsten vor?",
     "antwort": "N",
     "solution": "54°52'16\"_ 8°24'58\"_"
   },
   {
     "nummer": 8,
-    "beschreibung": "In dieser Kirche wart ihr schon oft für Konzerte, dorthin führt euch nun die Pfärte.",
+    "beschreibung": "In dieser Kirche wart ihr schon oft für Konzerte, dorthin führt euch nun die Fährte.",
     "frage": "Finde das Grab eines ehemaligen Bundesministers, der auch Namensvetter eines Altkanzlers ist. Welcher Buchstabe steckt hier im O?",
-    "antwort": "E",
+    "antwort": ["Severin", "St. Severin"],
+    "solution": "54°52'16\"N 8°24'58\"_"
+  },
+  {
+    "nummer": 8,
+    "beschreibung": "Einer sagte hier schon Ja! Ein andrer liegt für immer da.",
+    "frage": "Findet das Grab eines ehemaligen Bundesministers, der auch Namensvetter eines Altkanzlers ist. Welcher Buchstabe steckt hier im O?",
+    "antwort": ["E"],
     "solution": "54°52'16\"N 8°24'58\"_"
   },
   {
     "nummer": 9,
-    "beschreibung": "Habt ihr bei den Rätsels nicht nur geraten, so habt ihr für das Ziel nun die Koordinaten.",
+    "beschreibung": "Habt ihr bei den Rätseln nicht nur geraten, so habt ihr für das Ziel nun die Koordinaten.",
     "frage": "Endstation",
     "antwort": "",
     "solution": "54°52'16\"N 8°24'58\"E"
