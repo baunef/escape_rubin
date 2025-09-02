@@ -4,7 +4,7 @@
     "titel": "Trautes Heim",
     "beschreibung": "Der erste Stopp ist nicht sehr fern, hier hausten wir viele Jahre gern.",
     "frage": "Unter welcher Adresse ist dieser Ort zu finden?",
-    "antwort": ["Berthin-Bleeg-Straße 333", "BBB333", "333"],
+    "antwort": ["Berthin-Bleeg-Straße 333", "BBB333", "333", "Berthin-Bleeg-Straße 27", "BBB27", "27"],
     "solution": "_°_'_\"_ _°_'_\"_",
     "image": "images/quiz/sturmfried.jpg"
   },
@@ -55,14 +55,16 @@
     "beschreibung": "Der höchste Punkt der Insel ist Stopp Nummer 4, die nächste Aufgaben wartet auf euch hier.",
     "frage": "Wie heißt euer nächster Stopp?",
     "antwort": ["Uwe", "Uwe-Düne", "Uwe Düne", "Uwedüne"],
-    "solution": "_°52'_\"_ 8°_'58\"_"
+    "solution": "_°52'_\"_ 8°_'58\"_",
+    "image": "https://placesofgermany.de/wp-content/uploads/2023/08/Sylt-Uweduene.webp"
   },
   {
     "nummer": 4,
     "beschreibung": "Den Tag nicht vor dem Abend loben, jetzt müsst ihr auch noch ganz nach oben!",
     "frage": "Wie viele Stufen muss man hier hinauf gehen? Teile diese Zahl durch 2 und subtrahiere 1.",
     "antwort": "54",
-    "solution": "_°52'_\"_ 8°_'58\"_"
+    "solution": "_°52'_\"_ 8°_'58\"_",
+    "image": "https://placesofgermany.de/wp-content/uploads/2023/08/Sylt-Uweduene.webp"
   },  
   {
     "nummer": 5,
@@ -85,47 +87,53 @@
     "beschreibung": "Ihr fahrt in Richtung Munkmarsch weiter, dort steht ein edles Gästehaus.",
     "frage": "Wie heißt das gesuchte Gästehaus?",
     "antwort": ["Fährhaus", "fährhaus", "fahrhaus", "Fahrhaus", "Das Fährhaus", "färhaus", "Färhaus"],
-    "solution": "54°52'_\"_ 8°24'58\"_"
+    "solution": "54°52'_\"_ 8°24'58\"_",
+    "image": "https://www.faehrhaus-sylt.de/media/3db2ec09-7feb-471c-b61b-9f6622a76b2e/sommernachtstraum-2015-205-von-256.jpg"
   },
   {
     "nummer": 6,
     "beschreibung": "Am besten kehr auch hier nicht ein, denn hier fehlt uns ein guter Reim.",
     "frage": "Das Fährhaus wurde im Jahr X8Y8 erbaut. Findet XY!",
     "antwort": ["16"],
-    "solution": "54°52'_\"_ 8°24'58\"_"
+    "solution": "54°52'_\"_ 8°24'58\"_",
+    "image": "https://www.faehrhaus-sylt.de/media/3db2ec09-7feb-471c-b61b-9f6622a76b2e/sommernachtstraum-2015-205-von-256.jpg"
   },
   {
     "nummer": 7,
     "beschreibung": "Auf Schwindel fällt sie nicht herein und stürzt mitsamt dem Lügner ein.",
     "frage": "Welches schwindelfreie Monument ist euer nächstes Ziel?",
     "antwort": ["Lügenbrücke", "Lügen Brücke", "Lügnerbrücke", "Die Lügenbrücke", "lügenbrücke"],
-    "solution": "54°52'16\"_ 8°24'58\"_"
+    "solution": "54°52'16\"_ 8°24'58\"_",
+    "image": "https://shop.sylt-bildergalerie.de/cdn/shop/products/Sylt-Brucke-Munkmarsch-116-002vorab-6psvoll21endfarbe2web_2048x.jpg"
   },
   {
     "nummer": 7,
     "beschreibung": "In der Ehe soll man nur Wahres sagen, weshalb wir über die Brücke jagen.",
     "frage": "„Lügen haben kurze Beine.“ Welcher Buchstabe kommt in diesem Sprichwort am häufigsten vor?",
     "antwort": "N",
-    "solution": "54°52'16\"_ 8°24'58\"_"
+    "solution": "54°52'16\"_ 8°24'58\"_",
+    "image": "https://shop.sylt-bildergalerie.de/cdn/shop/products/Sylt-Brucke-Munkmarsch-116-002vorab-6psvoll21endfarbe2web_2048x.jpg"
   },
   {
     "nummer": 8,
     "beschreibung": "In dieser Kirche wart ihr schon oft für Konzerte, dorthin führt euch nun die Fährte.",
-    "frage": "Finde das Grab eines ehemaligen Bundesministers, der auch Namensvetter eines Altkanzlers ist. Welcher Buchstabe steckt hier im O?",
-    "antwort": ["Severin", "St. Severin"],
-    "solution": "54°52'16\"N 8°24'58\"_"
+    "frage": "Wie heißt das heilige Haus?",
+    "antwort": ["Severin", "St. Severin", "St. Severin von 1216"],
+    "solution": "54°52'16\"N 8°24'58\"_", 
+    "image": "https://www.nordkirche.de/fileadmin/_processed_/1/7/csm_41146-Severin_Sylt_iStock_Netz_a453af00af.jpg"
   },
   {
     "nummer": 8,
     "beschreibung": "Einer sagte hier schon Ja! Ein andrer liegt für immer da.",
     "frage": "Findet das Grab eines ehemaligen Bundesministers, der auch Namensvetter eines Altkanzlers ist. Welcher Buchstabe steckt hier im O?",
     "antwort": ["E"],
-    "solution": "54°52'16\"N 8°24'58\"_"
+    "solution": "54°52'16\"N 8°24'58\"_", 
+    "image": "https://www.nordkirche.de/fileadmin/_processed_/1/7/csm_41146-Severin_Sylt_iStock_Netz_a453af00af.jpg"
   },
   {
     "nummer": 9,
     "beschreibung": "Habt ihr bei den Rätseln nicht nur geraten, so habt ihr für das Ziel nun die Koordinaten.",
-    "frage": "Endstation",
+    "frage": "",
     "antwort": "",
     "solution": "54°52'16\"N 8°24'58\"E"
   }
