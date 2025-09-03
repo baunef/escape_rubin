@@ -44,6 +44,7 @@
   },
   {
     "nummer": 3,
+    "titel": "Der lange Christian",
     "beschreibung": "Vorm Turme stehend nach oben seht, dann rechnet bis euch ein Licht aufgeht!",
     "frage": "Am Bauwerk steht die Zahl 18XX. Welche Zahl ergibt sich, wenn ihr zu XX die Anzahl Sekunden addiert, die das Bauwerk zur Kennung pro Umdrehung hell leuchtet?",
     "antwort": ["58"],
@@ -60,6 +61,7 @@
   },
   {
     "nummer": 4,
+    "titel": "Aufstieg zur Uwe-Düne",
     "beschreibung": "Den Tag nicht vor dem Abend loben, jetzt müsst ihr auch noch ganz nach oben!",
     "frage": "Wie viele Stufen muss man hier hinauf gehen? Teile diese Zahl durch 2 und subtrahiere 1.",
     "antwort": "54",
@@ -76,6 +78,7 @@
   },
   {
     "nummer": 5,
+    "titel": "Die Kupferkanne",
     "beschreibung": "Kuchen gibt's noch nicht als Lohn, das nächste Rätsel wartet schon!",
     "frage": "Sucht das Logo des Cafés. Dort findet ihr eine Zahlenabfolge. Berechnet die Summe aller Ziffern und addiert die Anzahl Personen, die ihr zu diesem Urlaub eingeladen habt.",
     "antwort": ["24"],
@@ -92,6 +95,7 @@
   },
   {
     "nummer": 6,
+    "titel": "Vorbei am Fährhaus",
     "beschreibung": "Am besten kehr auch hier nicht ein, denn hier fehlt uns ein guter Reim.",
     "frage": "Das Fährhaus wurde im Jahr X8Y8 erbaut. Findet XY!",
     "antwort": ["16"],
@@ -108,9 +112,10 @@
   },
   {
     "nummer": 7,
+    "titel": "Auf der Lügenbrücke",
     "beschreibung": "In der Ehe soll man nur Wahres sagen, weshalb wir über die Brücke jagen.",
     "frage": "„Lügen haben kurze Beine.“ Welcher Buchstabe kommt in diesem Sprichwort am häufigsten vor?",
-    "antwort": "N",
+    "antwort": ["N", "n"],
     "solution": "54°52'16\"_ 8°24'58\"_",
     "image": "https://shop.sylt-bildergalerie.de/cdn/shop/products/Sylt-Brucke-Munkmarsch-116-002vorab-6psvoll21endfarbe2web_2048x.jpg"
   },
@@ -124,17 +129,19 @@
   },
   {
     "nummer": 8,
+    "titel": "Das Grab zu St. Severin",
     "beschreibung": "Einer sagte hier schon Ja! Ein andrer liegt für immer da.",
     "frage": "Findet das Grab eines ehemaligen Bundesministers, der auch Namensvetter eines Altkanzlers ist. Welcher Buchstabe steckt hier im O?",
-    "antwort": ["E"],
+    "antwort": ["E", "e"],
     "solution": "54°52'16\"N 8°24'58\"_", 
     "image": "https://www.nordkirche.de/fileadmin/_processed_/1/7/csm_41146-Severin_Sylt_iStock_Netz_a453af00af.jpg"
   },
   {
     "nummer": 9,
+    "titel": "Auf der Zielgeraden",
     "beschreibung": "Habt ihr bei den Rätseln nicht nur geraten, so habt ihr für das Ziel nun die Koordinaten.",
-    "frage": "",
-    "antwort": "",
+    "frage": "Welches Ort verbirgt sich hinter den Koordinaten?",
+    "antwort": ["raspe", "Raspe", "gold", "Gold", "Goldschmied", "Goldschiede Raspé", "Goldschmiede Raspe", "Goldschmied Raspe", "Goldschmied Raspé", "Raspé"],
     "solution": "54°52'16\"N 8°24'58\"E"
   }
 ]
