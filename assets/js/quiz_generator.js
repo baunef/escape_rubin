@@ -84,8 +84,8 @@ function loadRätsel(index) {
 
 // Antwort prüfen
 function checkAnswer() {
-  const userAnswer = input.value.trim();
-  const correctAnswer = JSON.parse(input.dataset.answer);
+  const userAnswer = input.value.trim().toLowerCase();
+  const correctAnswer = JSON.parse(input.dataset.answer.toLowerCase());
 
   // vorherige Klassen entfernen
   input.classList.remove("correct", "wrong", "shake");
