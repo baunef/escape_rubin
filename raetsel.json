@@ -19,7 +19,7 @@
   },
   {
     "nummer": 2,
-    "beschreibung": "Als nächstes geht's zu einem Gewässer, \n ein gutes Restaurant nebenan hat Essen, das ist noch besser.",
+    "beschreibung": "Als nächstes geht's zu einem Gewässer, ein gutes Restaurant nebenan hat Essen, das ist noch besser.",
     "frage": "Welchen prominenten Fernsehmoderator haben wir hier mit Dreitagebart gesehen?",
     "antwort": ["Günther Jauch", "Jauch", "Günther", "Günter Jauch", "Günter"],
     "solution": "_°_'_\"_ 8°_'_\"_",
@@ -36,9 +36,9 @@
   },
   {
     "nummer": 3,
-    "beschreibung": "Stopp 3 ist lang und steht im Feld, \n er heisst wie'n Ex-Finanzminister (der war kein Held).",
+    "beschreibung": "Stopp 3 ist lang und steht im Feld, er heisst wie'n Ex-Finanzminister (der war kein Held).",
     "frage": "Wie heißt die helle Leuchte?",
-    "antwort": ["Langer Christian", "Lange Christian", "langer christian", "langer Christian", "Leuchtturm Christian"],
+    "antwort": ["Langer Christian", "Lange Christian", "langer christian", "langer Christian", "Leuchtturm Christian", "Christian"],
     "solution": "_°52'_\"_ 8°_'_\"_",
     "image": "https://image.stern.de/32529308/t/3P/v5/w1440/r1.3333/-/sylt-lindner-hochzeit.jpg"
   },
@@ -87,7 +87,7 @@
   },
   {
     "nummer": 6,
-    "beschreibung": "Ihr fahrt in Richtung Munkmarsch weiter, dort steht ein edles Gästehaus.",
+    "beschreibung": "Ihr fahrt in Richtung Munkmarsch hinaus, dort steht am Meer ein edles Gästehaus.",
     "frage": "Wie heißt das gesuchte Gästehaus?",
     "antwort": ["Fährhaus", "fährhaus", "fahrhaus", "Fahrhaus", "Das Fährhaus", "färhaus", "Färhaus"],
     "solution": "54°52'_\"_ 8°24'58\"_",
@@ -123,7 +123,7 @@
     "nummer": 8,
     "beschreibung": "In dieser Kirche wart ihr schon oft für Konzerte, dorthin führt euch nun die Fährte.",
     "frage": "Wie heißt das heilige Haus?",
-    "antwort": ["Severin", "St. Severin", "St. Severin von 1216"],
+    "antwort": ["Severin", "St. Severin", "St. Severin von 1216", "severin", "st severin", "St Severin", "Sankt Severin"],
     "solution": "54°52'16\"N 8°24'58\"_", 
     "image": "https://www.nordkirche.de/fileadmin/_processed_/1/7/csm_41146-Severin_Sylt_iStock_Netz_a453af00af.jpg"
   },
@@ -140,8 +140,8 @@
     "nummer": 9,
     "titel": "Auf der Zielgeraden",
     "beschreibung": "Habt ihr bei den Rätseln nicht nur geraten, so habt ihr für das Ziel nun die Koordinaten.",
-    "frage": "Welches Ort verbirgt sich hinter den Koordinaten?",
-    "antwort": ["raspe", "Raspe", "gold", "Gold", "Goldschmied", "Goldschiede Raspé", "Goldschmiede Raspe", "Goldschmied Raspe", "Goldschmied Raspé", "Raspé"],
+    "frage": "Welcher Ort verbirgt sich hinter den Koordinaten?",
+    "antwort": ["raspe", "Raspe Goldschmiede","Raspe", "gold", "Gold", "Goldschmied", "Goldschmiede", "Goldschiede Raspé", "Goldschmiede Raspe", "Goldschmied Raspe", "Goldschmied Raspé", "Raspé"],
     "solution": "54°52'16\"N 8°24'58\"E",
     "image": "images/quiz/schulz_strand.jpg"
   }
