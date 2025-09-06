@@ -4,7 +4,7 @@
     "titel": "Trautes Heim",
     "beschreibung": "Der erste Stopp ist nicht sehr fern, hier hausten wir viele Jahre gern.",
     "frage": "Unter welcher Adresse ist dieser Ort zu finden?",
-    "antwort": ["Berthin-Bleeg-Straße 333", "BBB333", "333", "Berthin-Bleeg-Straße 27", "BBB27", "27"],
+    "antwort": ["Berthin-Bleeg-Straße 333", "BBB333", "333", "Berthin-Bleeg-Straße 27", "BBB27", "27", "Berthin-Bleeg-Straße", "Berthin Bleeg Straße", "Berthin-Bleeg Straße", "Berthin-Bleeg"],
     "solution": "_°_'_\"_ _°_'_\"_",
     "image": "images/quiz/sturmfried.jpg"
   },
@@ -19,7 +19,7 @@
   },
   {
     "nummer": 2,
-    "beschreibung": "Als nächstes geht's zu einem Gewässer, ein gutes Restaurant nebenan hat Essen, das ist noch besser.",
+    "beschreibung": "Als nächstes geht's zu einem Gewässer, \n ein gutes Restaurant nebenan hat Essen, das ist noch besser.",
     "frage": "Welchen prominenten Fernsehmoderator haben wir hier mit Dreitagebart gesehen?",
     "antwort": ["Günther Jauch", "Jauch", "Günther", "Günter Jauch", "Günter"],
     "solution": "_°_'_\"_ 8°_'_\"_",
@@ -28,7 +28,7 @@
   {
     "nummer": 2,
     "titel": "Am Friesenhof",
-    "beschreibung": "Begebt euch vom Restaurant Fitschen zur nächtgelegenen Bushaltestelle an der „Hauptstrasse Friesenhof“.",
+    "beschreibung": "Begebt euch vom Restaurant Fitschen zur nahgelegenen Bushaltestelle an der „Hauptstrasse Friesenhof“.",
     "frage": "Die Buslinie 3a hält hier um wie viele Minuten nach 7 Uhr?",
     "antwort": ["52"],
     "solution": "_°_'_\"_ 8°_'_\"_",
@@ -36,9 +36,9 @@
   },
   {
     "nummer": 3,
-    "beschreibung": "Stopp 3 ist lang und steht im Feld, er heisst wie'n Ex-Finanzminister (der war kein Held).",
+    "beschreibung": "Stopp 3 ist lang und steht im Feld, \n er heisst wie'n Ex-Finanzminister (der war kein Held).",
     "frage": "Wie heißt die helle Leuchte?",
-    "antwort": ["Langer Christian", "Lange Christian", "langer christian", "langer Christian"],
+    "antwort": ["Langer Christian", "Lange Christian", "langer christian", "langer Christian", "Leuchtturm Christian"],
     "solution": "_°52'_\"_ 8°_'_\"_",
     "image": "https://image.stern.de/32529308/t/3P/v5/w1440/r1.3333/-/sylt-lindner-hochzeit.jpg"
   },
