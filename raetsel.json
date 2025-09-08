@@ -143,7 +143,7 @@
     "frage": "Welcher Ort verbirgt sich hinter den Koordinaten?",
     "antwort": ["raspe", "Raspe Goldschmiede","Raspe", "gold", "Gold", "Goldschmied", "Goldschmiede", "Goldschiede Raspé", "Goldschmiede Raspe", "Goldschmied Raspe", "Goldschmied Raspé", "Raspé"],
     "solution": "54°52'16\"N 8°24'58\"E",
-    "image": "images/quiz/schulz_strand.jpg"
+    "image": "images/schulz_strand.jpg"
   }
 ]
 
